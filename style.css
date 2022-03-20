@@ -649,6 +649,21 @@ footer span a:hover{
     text-decoration: underline;
     cursor: pointer;
 }
+/* Follow */
+.follow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: -54px 40px 0 0;
+
+  }
+  .follow a{
+      margin: 5px;
+  }
+  .follow #github img{
+      width: 40px;
+      height:40px;
+  }
 
 
 /* media query styling */
@@ -782,7 +797,9 @@ footer span a:hover{
     .contact {
         padding: 53px 0;
     }
-
+.follow{
+        margin: 0px;
+    }
 
     
 }
