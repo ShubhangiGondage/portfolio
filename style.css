@@ -809,6 +809,9 @@ footer span a:hover{
     .skills .skills-content .info{
         grid-template-columns: repeat(3,1fr);
     }
+    .contact {
+        height: 125vh;
+    }
     .contact .contact-content{
         flex-direction: column;
     }
