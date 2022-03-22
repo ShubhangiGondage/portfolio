@@ -640,6 +640,7 @@ footer{
     color: black;
     text-align: center;
     font-size: 20px;
+    position:fixed;
 }
 footer span a{
     color: crimson;
@@ -655,6 +656,7 @@ footer span a:hover{
     align-items: center;
     justify-content: flex-end;
     margin: -54px 40px 0 0;
+    position:fixed;
 
   }
   .follow a{
