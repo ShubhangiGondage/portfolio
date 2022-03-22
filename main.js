@@ -82,6 +82,6 @@ window.addEventListener("scroll", scrollActive);
 function sub() {
     
     if(screen.width<=400){
-        document.getElementById("contact").style.height="150vh";
+        document.getElementById("contact").style.height="200vh";
     }
 }
