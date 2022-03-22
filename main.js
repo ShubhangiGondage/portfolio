@@ -78,6 +78,10 @@ function scrollActive() {
 }
 window.addEventListener("scroll", scrollActive);
 // onsubmit function for display message after submitting the contact form
+
 function sub() {
-    alert("Your message has been sent successfully!!!");
+    
+    if(screen.width<=400){
+        document.getElementById("contact").style.height="150vh";
+    }
 }
